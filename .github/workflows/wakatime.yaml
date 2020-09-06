@@ -1,9 +1,8 @@
-name: Wakatime
+name: wakatime
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 12am UTC
     - cron: '0 */1 * * *'
 
 jobs:

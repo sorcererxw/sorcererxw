@@ -47,6 +47,6 @@ SQL        9 mins         ▒░░░░░░░░░ 0.45%
 </tr>
 </table>
 
-#### My Footprint
+#### ✈My Footprint
 
-![footprint](./footprint.png)
+<img src="https://github.com/sorcererxw/sorcererxw/raw/master/footprint.png" height="auto" width="800" style="border-radius:24px">

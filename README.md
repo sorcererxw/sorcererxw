@@ -8,7 +8,7 @@
 <tr>
 <td valign="top" width="50%">
 
-#### 📊Weekly Development Breakdown
+#### 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
 ```text
@@ -27,7 +27,7 @@ SQL        9 mins         ▒░░░░░░░░░ 0.45%
 
 <td valign="top" width="50%">
 
-#### 💃Literature and Art
+#### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
 * <a href='http://movie.douban.com/subject/33404425/' target='_blank'>看过隐秘的角落</a> - <code>2020/09/28</code>
@@ -47,6 +47,6 @@ SQL        9 mins         ▒░░░░░░░░░ 0.45%
 </tr>
 </table>
 
-#### ✈My Footprint
+#### ✈ My Footprint
 
-<img src="https://github.com/sorcererxw/sorcererxw/raw/master/footprint.png" height="auto" width="800" style="border-radius:24px">
+![footprint](./footprint.png)

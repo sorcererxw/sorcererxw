@@ -80,7 +80,7 @@ func fetchWakatime() (string, error) {
 	}
 
 	for _, lang := range langs {
-		pattern:=fmt.Sprintf("%%-%ds %%-%ds %%-25s %%.2f%%%%\n",maxNameLen,maxTextLen)
+		pattern := fmt.Sprintf("%%-%ds %%-%ds %%-25s %%.2f%%%%\n", maxNameLen, maxTextLen)
 		section += fmt.Sprintf(pattern, lang.Name, lang.Text, buildProgressBar(lang.Percent), lang.Percent)
 	}
 	return fmt.Sprintf("```text\n%s```", section), nil
@@ -96,7 +96,7 @@ func fetchDouban() (string, error) {
 	}
 	section := ""
 	for _, it := range feed.Items {
-		section += fmt.Sprintf("* <a href='%s' target='_blank'>%s</a>", it.Link, it.Title)
+		section += fmt.Sprintf("<a href='%s' target='_blank'>%s</a>", it.Link, it.Title)
 		if it.PublishedParsed != nil {
 			section += fmt.Sprintf(" - <code>%s</code>", it.PublishedParsed.Format("2006/01/02"))
 		}

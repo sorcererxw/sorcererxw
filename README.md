@@ -7,7 +7,7 @@
 <table width="800px">
 <tr>
 <td valign="top" width="50%">
-<b>📊Weekly Development breakdown</b>
+<b>📊Weekly Development breakdown</b><br />
 
 <!--START_SECTION:waka-->
 ```text
@@ -18,8 +18,9 @@ GraphQL      1 hr 11 mins    █░░░░░░░░░░░░░░░░
 JavaScript   1 hr 6 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.28 % 
 ```
 <!--END_SECTION:waka-->
+
 <td valign="top" width="50%">
-<b>💃Literature and art</b>
+<b>💃Literature and art</b><br />
 
 <!--START_SECTION:douban-->
 * <a href='http://movie.douban.com/subject/33404425/' target='_blank'>看过隐秘的角落</a>- <code>2020/09/28</code>
@@ -32,7 +33,6 @@ JavaScript   1 hr 6 mins     ▓░░░░░░░░░░░░░░░░
 * <a href='http://movie.douban.com/subject/34840339/' target='_blank'>看过脱口秀大会 第三季</a>- <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/26608230/' target='_blank'>看过三十而已</a>- <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/30444960/' target='_blank'>看过信条</a>- <code>2020/09/06</code>
-
 <!--END_SECTION:douban-->
 
 </td>

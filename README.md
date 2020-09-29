@@ -2,9 +2,12 @@
 
 **I'm Sorcererxw, keeping creating something.**
 
----
+![visitors](https://visitor-badge.glitch.me/badge?page_id=sorcererxw.sorcererx)
 
-**📊Weekly Development breakdown**
+<table width="800px">
+<tr>
+<td valign="top" width="50%">
+<b>📊Weekly Development breakdown</b>
 
 <!--START_SECTION:waka-->
 ```text
@@ -15,7 +18,13 @@ Docker       1 hr 56 mins    ███░░░░░░░░░░░░░░
 Markdown     24 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 % 
 ```
 <!--END_SECTION:waka-->
+<td valign="top" width="50%">
+<b>💃Literature and art</b>
 
----
+<!--START_SECTION:douban-->
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=sorcererxw.sorcererx)
+<!--END_SECTION:douban-->
+
+</td>
+</tr>
+</table>

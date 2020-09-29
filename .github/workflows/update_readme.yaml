@@ -1,4 +1,4 @@
-name: wakatime
+name: update_readme
 
 on:
   workflow_dispatch:
@@ -10,6 +10,9 @@ jobs:
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
+      - run: go run update_readme.go
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+

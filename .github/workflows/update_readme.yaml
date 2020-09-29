@@ -10,9 +10,21 @@ jobs:
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
-      - run: go run update_readme.go
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-
+      - name: Say Something
+        run: echo "Inspired github.com/tw93/tw93"
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Set up Golang
+        uses: actions/setup-go@v2
+      - name: Write new content
+        run: go run update_readme.go
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config --global user.email "tujipqy@gmail.com"
+          git config --global user.name "sorcererxw"
+          git pull
+          git add -A
+          git commit -m "Updated content" || exit 0
+          git push
 

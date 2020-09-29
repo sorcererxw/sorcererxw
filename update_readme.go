@@ -44,8 +44,8 @@ type POI struct {
 }
 
 func fetchMap(geos []POI) error {
-	MAPBOX_TOKEN := os.Getenv("MAPBOX_TOKEN")
-	if MAPBOX_TOKEN == "" {
+	mapboxToken := os.Getenv("MAPBOX_TOKEN")
+	if mapboxToken == "" {
 		return errors.New("should provice MAPBOX_TOKEN")
 	}
 	markers := ""
@@ -57,7 +57,7 @@ func fetchMap(geos []POI) error {
 		}
 		markers += fmt.Sprintf("pin-s-heart+191A1A(%f,%f)", geo.Lon, geo.Lat)
 	}
-	url := fmt.Sprintf("https://api.mapbox.com/styles/v1/mapbox/dark-v10/static%s/auto/1280x600@2x?logo=false&access_token=%s", markers, MAPBOX_TOKEN)
+	url := fmt.Sprintf("https://api.mapbox.com/styles/v1/mapbox/light-v10/static%s/auto/1280x600@2x?logo=false&access_token=%s", markers, mapboxToken)
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return err
@@ -80,11 +80,11 @@ func fetchMap(geos []POI) error {
 }
 
 func fetchFootprint() error {
-	JIKE_USERNAME := os.Getenv("JIKE_USERNAME")
-	if JIKE_USERNAME == "" {
+	jikeUsername := os.Getenv("JIKE_USERNAME")
+	if jikeUsername == "" {
 		return errors.New("should provice JIKE_USERNAME")
 	}
-	url := fmt.Sprintf("https://api.ruguoapp.com/1.0/footprint-service/footprints/show?username=%s", JIKE_USERNAME)
+	url := fmt.Sprintf("https://api.ruguoapp.com/1.0/footprint-service/footprints/show?username=%s", jikeUsername)
 	res, err := http.Get(url)
 	if err != nil {
 		return err

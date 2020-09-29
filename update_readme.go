@@ -13,19 +13,19 @@ import (
 	"sync"
 )
 
-func buildProgressBar(percent float64) string {
+func buildProgressBar(percent float64, span int) string {
 	bar := ""
-	for i := 0; i < 25; i++ {
-		if percent >= 4 {
+	for i := 0; i < 100/span; i++ {
+		if percent >= float64(span) {
 			bar += "█"
-		} else if percent >= 2 {
+		} else if percent >= float64(span)/2 {
 			bar += "▓"
 		} else if percent >= 0 {
 			bar += "▒"
 		} else {
 			bar += "░"
 		}
-		percent -= 4
+		percent -= float64(span)
 	}
 	return bar
 }
@@ -74,14 +74,15 @@ func fetchWakatime() (string, error) {
 		langs = langs[:10]
 	}
 	maxNameLen, maxTextLen := 0, 0
+	progressBarSpan := 10
 	for _, lang := range langs {
 		maxNameLen = max(len(lang.Name), maxNameLen)
 		maxTextLen = max(len(lang.Text), maxTextLen)
 	}
 
 	for _, lang := range langs {
-		pattern := fmt.Sprintf("%%-%ds %%-%ds %%-25s %%.2f%%%%\n", maxNameLen, maxTextLen)
-		section += fmt.Sprintf(pattern, lang.Name, lang.Text, buildProgressBar(lang.Percent), lang.Percent)
+		pattern := fmt.Sprintf("%%-%ds %%-%ds %%-%ds %%.2f%%%%\n", maxNameLen, maxTextLen, progressBarSpan)
+		section += fmt.Sprintf(pattern, lang.Name, lang.Text, buildProgressBar(lang.Percent, progressBarSpan), lang.Percent)
 	}
 	return fmt.Sprintf("```text\n%s```", section), nil
 }

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Something
-        run: echo "Inspired github.com/tw93/tw93"
+        run: echo "Inspired by github.com/tw93/tw93"
       - name: Check out repo
         uses: actions/checkout@v2
       - name: Set up Golang

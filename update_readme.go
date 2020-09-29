@@ -117,9 +117,7 @@ func writeSection(section string, newContent string) error {
 	}
 	content := string(raw)
 	pattern := fmt.Sprintf("<!--START_SECTION:%s-->[\\S\\s]*\\s<!--END_SECTION:%s-->", section, section)
-	log.Println(pattern)
 	re := regexp.MustCompile(pattern)
-	log.Println(re.MatchString(content))
 	content = re.ReplaceAllString(
 		content,
 		fmt.Sprintf("<!--START_SECTION:%s-->\n%s\n<!--END_SECTION:%s-->", section, newContent, section),

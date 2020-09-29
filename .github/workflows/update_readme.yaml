@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-go@v2
       - name: Write new content
         run: go run update_readme.go
+        env:
+          WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}
       - name: Commit and push if changed
         run: |-
           git diff

@@ -7,7 +7,8 @@
 <table width="800px">
 <tr>
 <td valign="top" width="50%">
-<b>📊Weekly Development breakdown</b><br />
+
+#### 📊Weekly Development breakdown
 
 <!--START_SECTION:waka-->
 ```text
@@ -25,7 +26,8 @@ SQL        9 mins         ▒░░░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 
 <td valign="top" width="50%">
-<b>💃Literature and art</b><br />
+
+#### 💃Literature and art
 
 <!--START_SECTION:douban-->
 * <a href='http://movie.douban.com/subject/33404425/' target='_blank'>看过隐秘的角落</a> - <code>2020/09/28</code>

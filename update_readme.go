@@ -96,7 +96,7 @@ func fetchDouban() (string, error) {
 	}
 	section := ""
 	for _, it := range feed.Items {
-		section += fmt.Sprintf("<a href='%s' target='_blank'>%s</a>", it.Link, it.Title)
+		section += fmt.Sprintf("* <a href='%s' target='_blank'>%s</a>", it.Link, it.Title)
 		if it.PublishedParsed != nil {
 			section += fmt.Sprintf(" - <code>%s</code>", it.PublishedParsed.Format("2006/01/02"))
 		}

@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/mmcdole/gofeed"
+	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -37,6 +38,110 @@ func max(a, b int) int {
 	return b
 }
 
+type POI struct {
+	Lon float64
+	Lat float64
+}
+
+func fetchMap(geos []POI) error {
+	MAPBOX_TOKEN := os.Getenv("MAPBOX_TOKEN")
+	if MAPBOX_TOKEN == "" {
+		return errors.New("should provice MAPBOX_TOKEN")
+	}
+	markers := ""
+	for idx, geo := range geos {
+		if idx == 0 {
+			markers += "/"
+		} else {
+			markers += ","
+		}
+		markers += fmt.Sprintf("pin-s-heart+191A1A(%f,%f)", geo.Lon, geo.Lat)
+	}
+	url := fmt.Sprintf("https://api.mapbox.com/styles/v1/mapbox/dark-v10/static%s/auto/1280x600@2x?logo=false&access_token=%s", markers, MAPBOX_TOKEN)
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return err
+	}
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer res.Body.Close()
+
+	file, err := os.OpenFile("./footprint.png", os.O_CREATE|os.O_RDWR, os.ModePerm)
+	if err != nil {
+		return err
+	}
+	_, err = io.Copy(file, res.Body)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func fetchFootprint() error {
+	JIKE_USERNAME := os.Getenv("JIKE_USERNAME")
+	if JIKE_USERNAME == "" {
+		return errors.New("should provice JIKE_USERNAME")
+	}
+	url := fmt.Sprintf("https://api.ruguoapp.com/1.0/footprint-service/footprints/show?username=%s", JIKE_USERNAME)
+	res, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer res.Body.Close()
+	raw, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		return err
+	}
+	body := struct {
+		Data struct {
+			FeatureCollection struct {
+				Type     string `json:"type"`
+				Features []struct {
+					Type     string `json:"type"`
+					Geometry struct {
+						Type        string    `json:"type"`
+						Coordinates []float64 `json:"coordinates"`
+					} `json:"geometry"`
+					Properties struct {
+						Count int `json:"count"`
+					} `json:"properties"`
+				} `json:"features"`
+			} `json:"featureCollection"`
+			Center struct {
+				Type       string `json:"type"`
+				Properties struct {
+				} `json:"properties"`
+				Geometry struct {
+					Type        string    `json:"type"`
+					Coordinates []float64 `json:"coordinates"`
+				} `json:"geometry"`
+			} `json:"center"`
+			Envelope struct {
+				Type       string `json:"type"`
+				Properties struct {
+				} `json:"properties"`
+				Geometry struct {
+					Type        string        `json:"type"`
+					Coordinates [][][]float64 `json:"coordinates"`
+				} `json:"geometry"`
+			} `json:"envelope"`
+		} `json:"data"`
+	}{}
+	if err := json.Unmarshal(raw, &body); err != nil {
+		return err
+	}
+	pois := make([]POI, 0)
+	for _, f := range body.Data.FeatureCollection.Features {
+		pois = append(pois, POI{
+			Lon: f.Geometry.Coordinates[0],
+			Lat: f.Geometry.Coordinates[1],
+		})
+	}
+	return fetchMap(pois)
+}
+
 func fetchWakatime() (string, error) {
 	wakatimeToken := os.Getenv("WAKATIME_TOKEN")
 	if wakatimeToken == "" {
@@ -48,6 +153,7 @@ func fetchWakatime() (string, error) {
 	if err != nil {
 		return "", err
 	}
+	defer res.Body.Close()
 	raw, err := ioutil.ReadAll(res.Body)
 	if err != nil {
 		return "", err
@@ -152,6 +258,13 @@ func main() {
 		}
 		log.Print(doubanSection)
 		if err := writeSection("douban", doubanSection); err != nil {
+			panic(err)
+		}
+	}()
+	wg.Add(1)
+	go func() {
+		defer wg.Done()
+		if err := fetchFootprint(); err != nil {
 			panic(err)
 		}
 	}()

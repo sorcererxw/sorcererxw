@@ -46,3 +46,7 @@ SQL        9 mins         ▒░░░░░░░░░ 0.45%
 </td>
 </tr>
 </table>
+
+#### My Footprint
+
+![footprint](./footprint.png)

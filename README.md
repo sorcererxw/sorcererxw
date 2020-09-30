@@ -30,16 +30,16 @@ Bash       41 mins        ▒░░░░░░░░░ 0.60%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* <a href='http://movie.douban.com/subject/6538866/' target='_blank'>看过极速车王</a> - <code>2020/09/30</code>
+* <a href='http://movie.douban.com/subject/21327493/' target='_blank'>看过精灵旅社2</a> - <code>2020/09/30</code>
+* <a href='http://movie.douban.com/subject/26813221/' target='_blank'>想看了不起的麦瑟尔夫人 第一季</a> - <code>2020/09/30</code>
+* <a href='http://movie.douban.com/subject/25966044/' target='_blank'>看过黑镜 第三季</a> - <code>2020/09/30</code>
+* <a href='http://movie.douban.com/subject/30194648/' target='_blank'>看过硅谷 第六季</a> - <code>2020/09/30</code>
+* <a href='http://movie.douban.com/subject/30206389/' target='_blank'>看过西部世界 第三季</a> - <code>2020/09/30</code>
 * <a href='http://movie.douban.com/subject/7054120/' target='_blank'>看过黑镜 第一季</a> - <code>2020/09/30</code>
 * <a href='http://movie.douban.com/subject/33404425/' target='_blank'>看过隐秘的角落</a> - <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/1293359/' target='_blank'>想看菊次郎的夏天</a> - <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/33447642/' target='_blank'>想看沉默的真相</a> - <code>2020/09/28</code>
-* <a href='https://book.douban.com/subject/25971624/' target='_blank'>最近在读政治秩序的起源</a> - <code>2020/09/28</code>
-* <a href='http://movie.douban.com/subject/26647711/' target='_blank'>在看9号秘事 第三季</a> - <code>2020/09/28</code>
-* <a href='http://movie.douban.com/subject/26341777/' target='_blank'>看过9号秘事 第二季</a> - <code>2020/09/28</code>
-* <a href='http://movie.douban.com/subject/20452350/' target='_blank'>看过9号秘事 第一季</a> - <code>2020/09/28</code>
-* <a href='http://movie.douban.com/subject/34840339/' target='_blank'>看过脱口秀大会 第三季</a> - <code>2020/09/28</code>
-* <a href='http://movie.douban.com/subject/26608230/' target='_blank'>看过三十而已</a> - <code>2020/09/28</code>
 
 <!--END_SECTION:douban-->
 

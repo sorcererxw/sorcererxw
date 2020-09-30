@@ -30,6 +30,7 @@ Bash       41 mins        ▒░░░░░░░░░ 0.60%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* <a href='http://movie.douban.com/subject/7054120/' target='_blank'>看过黑镜 第一季</a> - <code>2020/09/30</code>
 * <a href='http://movie.douban.com/subject/33404425/' target='_blank'>看过隐秘的角落</a> - <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/1293359/' target='_blank'>想看菊次郎的夏天</a> - <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/33447642/' target='_blank'>想看沉默的真相</a> - <code>2020/09/28</code>
@@ -39,7 +40,6 @@ Bash       41 mins        ▒░░░░░░░░░ 0.60%
 * <a href='http://movie.douban.com/subject/20452350/' target='_blank'>看过9号秘事 第一季</a> - <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/34840339/' target='_blank'>看过脱口秀大会 第三季</a> - <code>2020/09/28</code>
 * <a href='http://movie.douban.com/subject/26608230/' target='_blank'>看过三十而已</a> - <code>2020/09/28</code>
-* <a href='http://movie.douban.com/subject/30444960/' target='_blank'>看过信条</a> - <code>2020/09/06</code>
 
 <!--END_SECTION:douban-->
 

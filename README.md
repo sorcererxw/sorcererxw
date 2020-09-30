@@ -45,8 +45,15 @@ Bash       41 mins        ▒░░░░░░░░░ 0.60%
 
 </td>
 </tr>
-</table>
+<tr>
+<td colspan="2">
 
 #### ✈ My Footprint
 
 ![footprint](./footprint.png)
+
+</td>
+</tr>
+</table>
+
+

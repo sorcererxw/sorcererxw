@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/mmcdole/gofeed"
 	"io"
 	"io/ioutil"
 	"log"
@@ -12,6 +11,9 @@ import (
 	"os"
 	"regexp"
 	"sync"
+
+	"github.com/mmcdole/gofeed"
+	"golang.org/x/crypto/bcrypt"
 )
 
 func buildProgressBar(percent float64, span int) string {
@@ -58,6 +60,21 @@ func fetchMap(geos []POI) error {
 		markers += fmt.Sprintf("pin-s-heart+191A1A(%f,%f)", geo.Lon, geo.Lat)
 	}
 	url := fmt.Sprintf("https://api.mapbox.com/styles/v1/mapbox/light-v10/static%s/auto/1280x600@2x?logo=false&access_token=%s", markers, mapboxToken)
+
+	oldHash, err := ioutil.ReadFile("./footprint.hash")
+	if err != nil {
+		return err
+	}
+	if err := bcrypt.CompareHashAndPassword(oldHash, []byte(url)); err == nil {
+		log.Println("footprint does not change")
+		return nil
+	}
+	newHash, err := bcrypt.GenerateFromPassword([]byte(url), 10)
+	if err != nil {
+		return err
+	}
+	defer ioutil.WriteFile("./footprint.hash", newHash, os.ModePerm)
+
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return err
@@ -148,7 +165,7 @@ func fetchWakatime() (string, error) {
 		return "", errors.New("should provide WAKATIME_TOKEN")
 	}
 	res, err := http.Get(
-		fmt.Sprintf("https://wakatime.com/api/v1/users/current/stats/last_7_days?api_key=%s", wakatimeToken),
+		fmt.Sprintf("https://wakatime.com/api/v1/users/current/stats/last_30_days?api_key=%s", wakatimeToken),
 	)
 	if err != nil {
 		return "", err

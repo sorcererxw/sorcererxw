@@ -225,8 +225,8 @@ func fetchDouban() (string, error) {
 		maxLen = max(maxLen, utf8.RuneCountInString(it.Title))
 	}
 	for _, it := range feed.Items {
-		pattern := fmt.Sprintf("* <a href='%%s' target='_blank'>%%-%ds</a>", maxLen)
-		section += fmt.Sprintf(pattern, it.Link, it.Title)
+		pattern := fmt.Sprintf("* [%%-%ds](%%s)", maxLen)
+		section += fmt.Sprintf(pattern, it.Title, it.Link)
 		if it.PublishedParsed != nil {
 			section += fmt.Sprintf(" <code>%s</code>", it.PublishedParsed.Format("2006/01/02"))
 		}

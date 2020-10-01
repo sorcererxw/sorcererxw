@@ -1,6 +1,7 @@
 package main
 
 import (
+	"crypto/md5"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -13,7 +14,6 @@ import (
 	"sync"
 
 	"github.com/mmcdole/gofeed"
-	"golang.org/x/crypto/bcrypt"
 )
 
 func buildProgressBar(percent float64, span int) string {
@@ -65,15 +65,12 @@ func fetchMap(geos []POI) error {
 	if err != nil {
 		return err
 	}
-	if err := bcrypt.CompareHashAndPassword(oldHash, []byte(url)); err == nil {
+	newHash := fmt.Sprintf("%x", md5.Sum([]byte(url)))
+	if string(oldHash) == newHash {
 		log.Println("footprint does not change")
 		return nil
 	}
-	newHash, err := bcrypt.GenerateFromPassword([]byte(url), 10)
-	if err != nil {
-		return err
-	}
-	defer ioutil.WriteFile("./footprint.hash", newHash, os.ModePerm)
+	defer ioutil.WriteFile("./footprint.hash", []byte(newHash), os.ModePerm)
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {

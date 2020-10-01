@@ -11,7 +11,6 @@ import (
 	"os"
 	"regexp"
 	"sync"
-	"unicode/utf8"
 
 	"github.com/mmcdole/gofeed"
 	"golang.org/x/crypto/bcrypt"
@@ -220,13 +219,8 @@ func fetchDouban() (string, error) {
 		return "", err
 	}
 	section := ""
-	maxLen := 0
 	for _, it := range feed.Items {
-		maxLen = max(maxLen, utf8.RuneCountInString(it.Title))
-	}
-	for _, it := range feed.Items {
-		pattern := fmt.Sprintf("* [%%-%ds](%%s)", maxLen)
-		section += fmt.Sprintf(pattern, it.Title, it.Link)
+		section += fmt.Sprintf("* [%s](%s)", it.Title, it.Link)
 		if it.PublishedParsed != nil {
 			section += fmt.Sprintf(" <code>%s</code>", it.PublishedParsed.Format("2006/01/02"))
 		}

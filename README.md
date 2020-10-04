@@ -48,7 +48,7 @@ Other      54 mins        ▒░░░░░░░░░ 0.75%
 <tr>
 <td colspan="2">
 
-#### ✈ My Footprint
+#### ✈ Footprint
 
 ![footprint](./footprint.png)
 

@@ -30,6 +30,8 @@ Other      54 mins        ▒░░░░░░░░░ 0.74%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* [最近在读美国大城市的死与生](https://book.douban.com/subject/34907883/) <code>2020/10/05</code>
+* [看过我和我的家乡](http://movie.douban.com/subject/35051512/) <code>2020/10/05</code>
 * [看过完美关系](http://movie.douban.com/subject/30221758/) <code>2020/10/03</code>
 * [看过极速车王](http://movie.douban.com/subject/6538866/) <code>2020/09/30</code>
 * [看过精灵旅社2](http://movie.douban.com/subject/21327493/) <code>2020/09/30</code>
@@ -38,8 +40,6 @@ Other      54 mins        ▒░░░░░░░░░ 0.74%
 * [看过硅谷 第六季](http://movie.douban.com/subject/30194648/) <code>2020/09/30</code>
 * [看过西部世界 第三季](http://movie.douban.com/subject/30206389/) <code>2020/09/30</code>
 * [看过黑镜 第一季](http://movie.douban.com/subject/7054120/) <code>2020/09/30</code>
-* [看过隐秘的角落](http://movie.douban.com/subject/33404425/) <code>2020/09/28</code>
-* [想看菊次郎的夏天](http://movie.douban.com/subject/1293359/) <code>2020/09/28</code>
 
 <!--END_SECTION:douban-->
 

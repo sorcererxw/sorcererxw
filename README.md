@@ -30,6 +30,7 @@ Other      54 mins        ▒░░░░░░░░░ 0.73%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* [最近在读美国大城市的死与生](https://book.douban.com/subject/34907883/) <code>2020/10/05</code>
 * [看过我和我的家乡](http://movie.douban.com/subject/35051512/) <code>2020/10/05</code>
 * [看过完美关系](http://movie.douban.com/subject/30221758/) <code>2020/10/03</code>
 * [看过极速车王](http://movie.douban.com/subject/6538866/) <code>2020/09/30</code>

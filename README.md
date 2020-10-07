@@ -12,16 +12,16 @@
 
 <!--START_SECTION:waka-->
 ```text
-TypeScript 50 hrs 37 mins ████▒░░░░░ 40.73%
-Go         45 hrs 35 mins ███▓░░░░░░ 36.68%
-JSON       7 hrs 35 mins  ▓░░░░░░░░░ 6.11%
-Swift      3 hrs 52 mins  ▒░░░░░░░░░ 3.12%
-Docker     3 hrs 50 mins  ▒░░░░░░░░░ 3.09%
-Markdown   3 hrs 24 mins  ▒░░░░░░░░░ 2.74%
-GraphQL    2 hrs 38 mins  ▒░░░░░░░░░ 2.13%
-JavaScript 2 hrs 6 mins   ▒░░░░░░░░░ 1.70%
-YAML       1 hr 33 mins   ▒░░░░░░░░░ 1.26%
-Other      54 mins        ▒░░░░░░░░░ 0.73%
+TypeScript 46 hrs 15 mins ███▓░░░░░░ 39.64%
+Go         44 hrs 17 mins ███▓░░░░░░ 37.95%
+JSON       6 hrs 23 mins  ▓░░░░░░░░░ 5.48%
+Swift      3 hrs 52 mins  ▒░░░░░░░░░ 3.32%
+Docker     3 hrs 49 mins  ▒░░░░░░░░░ 3.28%
+Markdown   3 hrs 12 mins  ▒░░░░░░░░░ 2.75%
+GraphQL    2 hrs 38 mins  ▒░░░░░░░░░ 2.27%
+JavaScript 2 hrs          ▒░░░░░░░░░ 1.71%
+YAML       1 hr 27 mins   ▒░░░░░░░░░ 1.25%
+Other      44 mins        ▒░░░░░░░░░ 0.63%
 ```
 <!--END_SECTION:waka-->
 

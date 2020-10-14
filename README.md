@@ -30,6 +30,7 @@ Other      59 mins        ▒░░░░░░░░░ 0.92%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* [想读男性的衰落](https://book.douban.com/subject/35016930/) <code>2020/10/14</code>
 * [看过沉默的真相](http://movie.douban.com/subject/33447642/) <code>2020/10/09</code>
 * [最近在读美国大城市的死与生](https://book.douban.com/subject/34907883/) <code>2020/10/05</code>
 * [看过我和我的家乡](http://movie.douban.com/subject/35051512/) <code>2020/10/05</code>
@@ -39,7 +40,6 @@ Other      59 mins        ▒░░░░░░░░░ 0.92%
 * [想看了不起的麦瑟尔夫人 第一季](http://movie.douban.com/subject/26813221/) <code>2020/09/30</code>
 * [看过黑镜 第三季](http://movie.douban.com/subject/25966044/) <code>2020/09/30</code>
 * [看过硅谷 第六季](http://movie.douban.com/subject/30194648/) <code>2020/09/30</code>
-* [看过西部世界 第三季](http://movie.douban.com/subject/30206389/) <code>2020/09/30</code>
 
 <!--END_SECTION:douban-->
 

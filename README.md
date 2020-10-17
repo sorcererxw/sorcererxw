@@ -30,6 +30,8 @@ Other      58 mins        ▒░░░░░░░░░ 0.88%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* [想看飞奔去月球](http://movie.douban.com/subject/30141681/) <code>2020/10/17</code>
+* [想看未来的未来](http://movie.douban.com/subject/27045615/) <code>2020/10/17</code>
 * [想读男性的衰落](https://book.douban.com/subject/35016930/) <code>2020/10/14</code>
 * [看过沉默的真相](http://movie.douban.com/subject/33447642/) <code>2020/10/09</code>
 * [最近在读美国大城市的死与生](https://book.douban.com/subject/34907883/) <code>2020/10/05</code>
@@ -38,8 +40,6 @@ Other      58 mins        ▒░░░░░░░░░ 0.88%
 * [看过极速车王](http://movie.douban.com/subject/6538866/) <code>2020/09/30</code>
 * [看过精灵旅社2](http://movie.douban.com/subject/21327493/) <code>2020/09/30</code>
 * [想看了不起的麦瑟尔夫人 第一季](http://movie.douban.com/subject/26813221/) <code>2020/09/30</code>
-* [看过黑镜 第三季](http://movie.douban.com/subject/25966044/) <code>2020/09/30</code>
-* [看过硅谷 第六季](http://movie.douban.com/subject/30194648/) <code>2020/09/30</code>
 
 <!--END_SECTION:douban-->
 

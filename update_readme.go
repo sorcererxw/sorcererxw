@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	URL "net/url"
 	"os"
 	"regexp"
 	"sync"
@@ -57,10 +58,9 @@ func fetchMap(geos []POI) error {
 		} else {
 			markers += ","
 		}
-		markers += fmt.Sprintf("pin-s-heart+191A1A(%f,%f)", geo.Lon, geo.Lat)
+		markers += fmt.Sprintf("url-%s(%f,%f)", URL.PathEscape("https://cdn.jellow.site/spot.png"), geo.Lon, geo.Lat)
 	}
-	url := fmt.Sprintf("https://api.mapbox.com/styles/v1/mapbox/light-v10/static%s/auto/1280x600@2x?logo=false&access_token=%s", markers, mapboxToken)
-
+	url := fmt.Sprintf("https://api.mapbox.com/styles/v1/mapbox/dark-v10/static%s/auto/1280x600@2x?logo=false&access_token=%s", markers, mapboxToken)
 	oldHash, err := ioutil.ReadFile("./footprint.hash")
 	if err != nil {
 		return err

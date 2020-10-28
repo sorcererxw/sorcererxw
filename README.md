@@ -30,6 +30,7 @@ Bash            50 mins        ▒░░░░░░░░░ 0.67%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* [想看后翼弃兵](http://movie.douban.com/subject/32579283/) <code>2020/10/28</code>
 * [想看飞奔去月球](http://movie.douban.com/subject/30141681/) <code>2020/10/17</code>
 * [想看未来的未来](http://movie.douban.com/subject/27045615/) <code>2020/10/17</code>
 * [想读男性的衰落](https://book.douban.com/subject/35016930/) <code>2020/10/14</code>
@@ -39,7 +40,6 @@ Bash            50 mins        ▒░░░░░░░░░ 0.67%
 * [看过完美关系](http://movie.douban.com/subject/30221758/) <code>2020/10/03</code>
 * [看过极速车王](http://movie.douban.com/subject/6538866/) <code>2020/09/30</code>
 * [看过精灵旅社2](http://movie.douban.com/subject/21327493/) <code>2020/09/30</code>
-* [想看了不起的麦瑟尔夫人 第一季](http://movie.douban.com/subject/26813221/) <code>2020/09/30</code>
 
 <!--END_SECTION:douban-->
 

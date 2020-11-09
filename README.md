@@ -30,7 +30,7 @@ Swift           54 mins        ▒░░░░░░░░░ 0.65%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
-* [想看后翼弃兵](http://movie.douban.com/subject/32579283/) <code>2020/10/28</code>
+* [在看后翼弃兵](http://movie.douban.com/subject/32579283/) <code>2020/11/09</code>
 * [想看飞奔去月球](http://movie.douban.com/subject/30141681/) <code>2020/10/17</code>
 * [想看未来的未来](http://movie.douban.com/subject/27045615/) <code>2020/10/17</code>
 * [想读男性的衰落](https://book.douban.com/subject/35016930/) <code>2020/10/14</code>

@@ -217,7 +217,7 @@ func fetchDouban() (string, error) {
 	}
 	section := ""
 	for _, it := range feed.Items {
-		if regexp.MustCompile("^想看").MatchString(it.Title) {
+		if regexp.MustCompile("^想").MatchString(it.Title) {
 			continue
 		}
 		section += fmt.Sprintf("* [%s](%s)", it.Title, it.Link)

@@ -217,6 +217,9 @@ func fetchDouban() (string, error) {
 	}
 	section := ""
 	for _, it := range feed.Items {
+		if regexp.MustCompile("^想看").MatchString(it.Title) {
+			continue
+		}
 		section += fmt.Sprintf("* [%s](%s)", it.Title, it.Link)
 		if it.PublishedParsed != nil {
 			section += fmt.Sprintf(" <code>%s</code>", it.PublishedParsed.Format("2006/01/02"))

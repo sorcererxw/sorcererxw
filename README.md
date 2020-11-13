@@ -31,8 +31,6 @@ Bash            1 hr 15 mins   ▒░░░░░░░░░ 0.78%
 
 <!--START_SECTION:douban-->
 * [在看后翼弃兵](http://movie.douban.com/subject/32579283/) <code>2020/11/09</code>
-* [想看飞奔去月球](http://movie.douban.com/subject/30141681/) <code>2020/10/17</code>
-* [想看未来的未来](http://movie.douban.com/subject/27045615/) <code>2020/10/17</code>
 * [想读男性的衰落](https://book.douban.com/subject/35016930/) <code>2020/10/14</code>
 * [看过沉默的真相](http://movie.douban.com/subject/33447642/) <code>2020/10/09</code>
 * [最近在读美国大城市的死与生](https://book.douban.com/subject/34907883/) <code>2020/10/05</code>

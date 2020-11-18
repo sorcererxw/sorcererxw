@@ -36,7 +36,6 @@ Markdown        1 hr 27 mins   ▒░░░░░░░░░ 0.84%
 * [看过我和我的家乡](http://movie.douban.com/subject/35051512/) <code>2020/10/05</code>
 * [看过完美关系](http://movie.douban.com/subject/30221758/) <code>2020/10/03</code>
 * [看过极速车王](http://movie.douban.com/subject/6538866/) <code>2020/09/30</code>
-* [看过精灵旅社2](http://movie.douban.com/subject/21327493/) <code>2020/09/30</code>
 
 <!--END_SECTION:douban-->
 

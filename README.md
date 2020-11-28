@@ -30,12 +30,12 @@ Docker          1 hr 42 mins   ▒░░░░░░░░░ 0.97%
 #### 💃 Literature and Art
 
 <!--START_SECTION:douban-->
+* [看过疯狂原始人2](http://movie.douban.com/subject/24298954/) <code>2020/11/28</code>
 * [看过后翼弃兵](http://movie.douban.com/subject/32579283/) <code>2020/11/15</code>
 * [看过沉默的真相](http://movie.douban.com/subject/33447642/) <code>2020/10/09</code>
 * [最近在读美国大城市的死与生](https://book.douban.com/subject/34907883/) <code>2020/10/05</code>
 * [看过我和我的家乡](http://movie.douban.com/subject/35051512/) <code>2020/10/05</code>
 * [看过完美关系](http://movie.douban.com/subject/30221758/) <code>2020/10/03</code>
-* [看过极速车王](http://movie.douban.com/subject/6538866/) <code>2020/09/30</code>
 
 <!--END_SECTION:douban-->
 

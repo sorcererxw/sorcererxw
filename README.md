@@ -12,8 +12,8 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              99 hrs 25 mins █████▓░░░░ 56.94%
-TypeScript      38 hrs 12 mins ██▒░░░░░░░ 21.88%
+Go              99 hrs 25 mins █████▓░░░░ 56.89%
+TypeScript      38 hrs 15 mins ██▒░░░░░░░ 21.89%
 Other           6 hrs 17 mins  ▒░░░░░░░░░ 3.60%
 Protocol Buffer 5 hrs 54 mins  ▒░░░░░░░░░ 3.38%
 JSON            5 hrs          ▒░░░░░░░░░ 2.87%
@@ -21,7 +21,7 @@ Python          4 hrs 56 mins  ▒░░░░░░░░░ 2.83%
 Bash            3 hrs 47 mins  ▒░░░░░░░░░ 2.17%
 Markdown        2 hrs 31 mins  ▒░░░░░░░░░ 1.44%
 YAML            1 hr 58 mins   ▒░░░░░░░░░ 1.13%
-Makefile        1 hr 49 mins   ▒░░░░░░░░░ 1.05%
+Makefile        1 hr 49 mins   ▒░░░░░░░░░ 1.04%
 ```
 <!--END_SECTION:waka-->
 

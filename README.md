@@ -45,7 +45,7 @@ Other           1 hr 57 mins   ▒░░░░░░░░░ 1.19%
 
 #### ✈ Footprint
 
-![footprint](./footprint.png)
+<img alt="footprint" src="./footprint.png" style="display: none; color-scheme: light;"/>
 
 </td>
 </tr>

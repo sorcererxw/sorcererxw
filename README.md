@@ -34,7 +34,6 @@ Docker          1 hr 40 mins    ▒░░░░░░░░░ 0.81%
 * [看过泰勒·汤姆林森：青年危机](http://movie.douban.com/subject/34979178/) <code>2021/01/01</code>
 * [看过心灵奇旅](http://movie.douban.com/subject/24733428/) <code>2020/12/26</code>
 * [看过神奇女侠1984](http://movie.douban.com/subject/27073752/) <code>2020/12/19</code>
-* [看过哆啦A梦：大雄的新恐龙](http://movie.douban.com/subject/34454004/) <code>2020/12/13</code>
 
 <!--END_SECTION:douban-->
 

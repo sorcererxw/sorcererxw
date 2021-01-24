@@ -208,10 +208,10 @@ func fetchWakatime() (string, error) {
 }
 
 func fetchDouban() (string, error) {
-	const doubanUrl = "https://www.douban.com/feed/people/sorcererxw/interests"
+	const doubanURL = "https://www.douban.com/feed/people/sorcererxw/interests"
 
 	fp := gofeed.NewParser()
-	feed, err := fp.ParseURL(doubanUrl)
+	feed, err := fp.ParseURL(doubanURL)
 	if err != nil {
 		return "", err
 	}
@@ -220,7 +220,13 @@ func fetchDouban() (string, error) {
 		if regexp.MustCompile("^想").MatchString(it.Title) {
 			continue
 		}
-		section += fmt.Sprintf("* [%s](%s)", it.Title, it.Link)
+		emoji := ""
+		if regexp.MustCompile("^(读过)").MatchString(it.Title) {
+			emoji = "📚"
+		} else if regexp.MustCompile("^(看过)").MatchString(it.Title) {
+			emoji = "📺"
+		}
+		section += fmt.Sprintf("* %s[%s](%s)", emoji, it.Title, it.Link)
 		if it.PublishedParsed != nil {
 			section += fmt.Sprintf(" <code>%s</code>", it.PublishedParsed.Format("2006/01/02"))
 		}

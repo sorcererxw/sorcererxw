@@ -12,6 +12,16 @@
 
 <!--START_SECTION:waka-->
 ```text
+Go              115 hrs 31 mins █████▓░░░░ 55.66%
+TypeScript      72 hrs 46 mins  ███▓░░░░░░ 35.06%
+Protocol Buffer 5 hrs 27 mins   ▒░░░░░░░░░ 2.63%
+JSON            4 hrs 38 mins   ▒░░░░░░░░░ 2.24%
+Makefile        1 hr 59 mins    ▒░░░░░░░░░ 0.96%
+YAML            1 hr 14 mins    ▒░░░░░░░░░ 0.59%
+JavaScript      1 hr 8 mins     ▒░░░░░░░░░ 0.55%
+TOML            1 hr 8 mins     ▒░░░░░░░░░ 0.55%
+Markdown        57 mins         ▒░░░░░░░░░ 0.47%
+Other           47 mins         ▒░░░░░░░░░ 0.38%
 ```
 <!--END_SECTION:waka-->
 

@@ -1,6 +1,6 @@
 # Hi 👋
 
-**I'm Sorcererxw, keeping creating something.**
+**I'm Sorcererxw.**
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=sorcererxw.sorcererx)
 
@@ -25,7 +25,7 @@ Docker          1 hr 34 mins    ▒░░░░░░░░░ 0.84%
 ```
 <!--END_SECTION:waka-->
 
-<td valign="top" width="50%">
+<td valign="top" width="0%">
 
 #### 💃 Literature and Art
 

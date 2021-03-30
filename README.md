@@ -12,16 +12,16 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              98 hrs 55 mins █████▒░░░░ 53.67%
-TypeScript      40 hrs 4 mins  ██▒░░░░░░░ 21.74%
-Dart            9 hrs 55 mins  ▓░░░░░░░░░ 5.39%
-YAML            6 hrs 6 mins   ▒░░░░░░░░░ 3.32%
-JSON            5 hrs 47 mins  ▒░░░░░░░░░ 3.14%
-JavaScript      4 hrs 27 mins  ▒░░░░░░░░░ 2.42%
-Protocol Buffer 3 hrs 56 mins  ▒░░░░░░░░░ 2.14%
-Other           3 hrs 12 mins  ▒░░░░░░░░░ 1.74%
-Docker          3 hrs 3 mins   ▒░░░░░░░░░ 1.66%
-Markdown        1 hr 40 mins   ▒░░░░░░░░░ 0.91%
+Go              103 hrs 47 mins █████▒░░░░ 53.72%
+TypeScript      43 hrs 8 mins   ██▒░░░░░░░ 22.33%
+Dart            10 hrs 42 mins  ▓░░░░░░░░░ 5.54%
+YAML            6 hrs 7 mins    ▒░░░░░░░░░ 3.17%
+JSON            5 hrs 51 mins   ▒░░░░░░░░░ 3.03%
+JavaScript      4 hrs 27 mins   ▒░░░░░░░░░ 2.31%
+Protocol Buffer 4 hrs           ▒░░░░░░░░░ 2.08%
+Other           3 hrs 17 mins   ▒░░░░░░░░░ 1.70%
+Docker          3 hrs 3 mins    ▒░░░░░░░░░ 1.58%
+Markdown        1 hr 40 mins    ▒░░░░░░░░░ 0.87%
 ```
 <!--END_SECTION:waka-->
 

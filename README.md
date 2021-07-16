@@ -4,10 +4,6 @@
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=sorcererxw.sorcererx)
 
-<table width="800px">
-<tr>
-<td valign="top" width="50%">
-
 #### 📊 Monthly Development Breakdown
 
 <!--START_SECTION:waka-->
@@ -24,17 +20,3 @@ SQL             56 mins         ▒░░░░░░░░░ 0.57%
 Docker          47 mins         ▒░░░░░░░░░ 0.47%
 ```
 <!--END_SECTION:waka-->
-
-</tr>
-<tr>
-<td colspan="2">
-
-#### ✈ Footprint
-
-![footprint](./footprint.png)
-
-</td>
-</tr>
-</table>
-
-

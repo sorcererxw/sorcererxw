@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"crypto/md5"
 	"encoding/json"
 	"errors"
@@ -15,6 +16,7 @@ import (
 	"sync"
 
 	"github.com/mmcdole/gofeed"
+	"golang.org/x/sync/errgroup"
 )
 
 func buildProgressBar(percent float64, span int) string {
@@ -93,13 +95,17 @@ func fetchMap(geos []POI) error {
 	return nil
 }
 
-func fetchFootprint() error {
+func fetchFootprint(ctx context.Context) error {
 	jikeUsername := os.Getenv("JIKE_USERNAME")
 	if jikeUsername == "" {
 		return errors.New("should provice JIKE_USERNAME")
 	}
 	url := fmt.Sprintf("https://api.ruguoapp.com/1.0/footprint-service/footprints/show?username=%s", jikeUsername)
-	res, err := http.Get(url)
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
+	if err != nil {
+		return err
+	}
+	res, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return err
 	}
@@ -156,14 +162,21 @@ func fetchFootprint() error {
 	return fetchMap(pois)
 }
 
-func fetchWakatime() (string, error) {
+func fetchWakatime(ctx context.Context) (string, error) {
 	wakatimeToken := os.Getenv("WAKATIME_TOKEN")
 	if wakatimeToken == "" {
 		return "", errors.New("should provide WAKATIME_TOKEN")
 	}
-	res, err := http.Get(
+	req, err := http.NewRequestWithContext(
+		ctx,
+		http.MethodGet,
 		fmt.Sprintf("https://wakatime.com/api/v1/users/current/stats/last_30_days?api_key=%s", wakatimeToken),
+		nil,
 	)
+	if err != nil {
+		return "", err
+	}
+	res, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return "", err
 	}
@@ -207,11 +220,11 @@ func fetchWakatime() (string, error) {
 	return fmt.Sprintf("```text\n%s```", section), nil
 }
 
-func fetchDouban() (string, error) {
+func fetchDouban(ctx context.Context) (string, error) {
 	const doubanURL = "https://www.douban.com/feed/people/sorcererxw/interests"
 
 	fp := gofeed.NewParser()
-	feed, err := fp.ParseURL(doubanURL)
+	feed, err := fp.ParseURLWithContext(doubanURL, ctx)
 	if err != nil {
 		return "", err
 	}
@@ -259,37 +272,27 @@ func writeSection(section string, newContent string) error {
 }
 
 func main() {
-	var wg sync.WaitGroup
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
-		wakatimeSection, err := fetchWakatime()
+	g, gctx := errgroup.WithContext(context.Background())
+	g.Go(func() error {
+		wakatimeSection, err := fetchWakatime(gctx)
 		if err != nil {
-			panic(err)
+			return err
 		}
 		log.Print(wakatimeSection)
-		if err := writeSection("waka", wakatimeSection); err != nil {
-			panic(err)
-		}
-	}()
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
-		doubanSection, err := fetchDouban()
+		return writeSection("waka", wakatimeSection)
+	})
+	g.Go(func() error {
+		doubanSection, err := fetchDouban(gctx)
 		if err != nil {
-			panic(err)
+			return err
 		}
 		log.Print(doubanSection)
-		if err := writeSection("douban", doubanSection); err != nil {
-			panic(err)
-		}
-	}()
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
-		if err := fetchFootprint(); err != nil {
-			panic(err)
-		}
-	}()
-	wg.Wait()
+		return writeSection("douban", doubanSection)
+	})
+	//g.Go(func() error {
+	//	return fetchFootprint(gctx)
+	//})
+	if err := g.Wait(); err != nil {
+		panic(err)
+	}
 }

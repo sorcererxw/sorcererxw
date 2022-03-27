@@ -281,14 +281,14 @@ func main() {
 		log.Print(wakatimeSection)
 		return writeSection("waka", wakatimeSection)
 	})
-	g.Go(func() error {
-		doubanSection, err := fetchDouban(gctx)
-		if err != nil {
-			return err
-		}
-		log.Print(doubanSection)
-		return writeSection("douban", doubanSection)
-	})
+	//g.Go(func() error {
+	//	doubanSection, err := fetchDouban(gctx)
+	//	if err != nil {
+	//		return err
+	//	}
+	//	log.Print(doubanSection)
+	//	return writeSection("douban", doubanSection)
+	//})
 	//g.Go(func() error {
 	//	return fetchFootprint(gctx)
 	//})

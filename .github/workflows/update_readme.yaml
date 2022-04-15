@@ -24,6 +24,8 @@ jobs:
           MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
       - name: Commit and push if changed
         run: |-
+          git config --global user.name "sorcererxw"
+          git config --global user.email "tujipqy+github@gmail.com"
           git diff
           git pull
           git add -A

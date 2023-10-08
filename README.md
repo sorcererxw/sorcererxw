@@ -6,15 +6,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              95 hrs 3 mins  ███████▓░░ 77.68%
-TypeScript      11 hrs 57 mins ▓░░░░░░░░░ 9.77%
-JSON            3 hrs 31 mins  ▒░░░░░░░░░ 2.88%
-YAML            2 hrs 38 mins  ▒░░░░░░░░░ 2.16%
-ActionScript    1 hr 37 mins   ▒░░░░░░░░░ 1.33%
-Protocol Buffer 1 hr 30 mins   ▒░░░░░░░░░ 1.23%
-go.mod          1 hr 27 mins   ▒░░░░░░░░░ 1.20%
-Text            57 mins        ▒░░░░░░░░░ 0.79%
-protobuf        44 mins        ▒░░░░░░░░░ 0.61%
-Thrift          35 mins        ▒░░░░░░░░░ 0.49%
+Go              93 hrs 5 mins ███████▓░░ 76.53%
+TypeScript      12 hrs 6 mins ▓░░░░░░░░░ 9.96%
+JSON            3 hrs 19 mins ▒░░░░░░░░░ 2.74%
+YAML            2 hrs 41 mins ▒░░░░░░░░░ 2.22%
+Protocol Buffer 1 hr 57 mins  ▒░░░░░░░░░ 1.60%
+go.mod          1 hr 30 mins  ▒░░░░░░░░░ 1.24%
+ActionScript    1 hr 26 mins  ▒░░░░░░░░░ 1.19%
+protobuf        1 hr 20 mins  ▒░░░░░░░░░ 1.10%
+Text            1 hr 1 min    ▒░░░░░░░░░ 0.84%
+Assembly        34 mins       ▒░░░░░░░░░ 0.47%
 ```
 <!--END_SECTION:waka-->

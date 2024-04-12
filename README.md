@@ -6,10 +6,10 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              56 hrs 30 mins ███████▓░░ 79.25%
-TypeScript      8 hrs 52 mins  █▒░░░░░░░░ 12.45%
-Thrift          1 hr 5 mins    ▒░░░░░░░░░ 1.53%
-JSON            51 mins        ▒░░░░░░░░░ 1.21%
+Go              59 hrs 38 mins ████████▒░ 83.85%
+TypeScript      5 hrs 51 mins  ▓░░░░░░░░░ 8.25%
+Thrift          1 hr 5 mins    ▒░░░░░░░░░ 1.54%
+JSON            51 mins        ▒░░░░░░░░░ 1.20%
 Other           32 mins        ▒░░░░░░░░░ 0.76%
 CSS             30 mins        ▒░░░░░░░░░ 0.71%
 Text            30 mins        ▒░░░░░░░░░ 0.71%

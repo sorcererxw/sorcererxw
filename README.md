@@ -6,15 +6,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              70 hrs 25 mins ████████▓░ 86.58%
-TypeScript      3 hrs 14 mins  ▒░░░░░░░░░ 3.98%
-JSON            1 hr 55 mins   ▒░░░░░░░░░ 2.37%
-TOML            1 hr 18 mins   ▒░░░░░░░░░ 1.61%
-Java            47 mins        ▒░░░░░░░░░ 0.97%
-CSV             44 mins        ▒░░░░░░░░░ 0.91%
-XML             41 mins        ▒░░░░░░░░░ 0.86%
-Other           36 mins        ▒░░░░░░░░░ 0.75%
-Protocol Buffer 26 mins        ▒░░░░░░░░░ 0.55%
-Git Config      19 mins        ▒░░░░░░░░░ 0.41%
+Go              73 hrs 1 min  ████████▓░ 85.61%
+TypeScript      3 hrs 14 mins ▒░░░░░░░░░ 3.79%
+JSON            1 hr 55 mins  ▒░░░░░░░░░ 2.26%
+TOML            1 hr 23 mins  ▒░░░░░░░░░ 1.64%
+Thrift          1 hr 13 mins  ▒░░░░░░░░░ 1.44%
+Java            47 mins       ▒░░░░░░░░░ 0.92%
+CSV             44 mins       ▒░░░░░░░░░ 0.87%
+XML             41 mins       ▒░░░░░░░░░ 0.82%
+Other           40 mins       ▒░░░░░░░░░ 0.79%
+Protocol Buffer 26 mins       ▒░░░░░░░░░ 0.52%
 ```
 <!--END_SECTION:waka-->

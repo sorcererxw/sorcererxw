@@ -6,11 +6,11 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              125 hrs 12 mins █████████▒ 94.24%
-JSON            3 hrs 59 mins   ▒░░░░░░░░░ 3.00%
-Thrift          1 hr 44 mins    ▒░░░░░░░░░ 1.31%
-Other           27 mins         ▒░░░░░░░░░ 0.35%
-YAML            24 mins         ▒░░░░░░░░░ 0.31%
+Go              126 hrs 30 mins █████████▒ 94.44%
+JSON            3 hrs 59 mins   ▒░░░░░░░░░ 2.98%
+Thrift          1 hr 32 mins    ▒░░░░░░░░░ 1.15%
+Other           26 mins         ▒░░░░░░░░░ 0.33%
+YAML            24 mins         ▒░░░░░░░░░ 0.30%
 Protocol Buffer 15 mins         ▒░░░░░░░░░ 0.20%
 Makefile        12 mins         ▒░░░░░░░░░ 0.15%
 Bash            9 mins          ▒░░░░░░░░░ 0.11%

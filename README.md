@@ -6,8 +6,8 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              92 hrs 3 mins ████████▓░ 88.84%
-JSON            4 hrs 30 mins ▒░░░░░░░░░ 4.35%
+Go              92 hrs 8 mins ████████▓░ 88.82%
+JSON            4 hrs 32 mins ▒░░░░░░░░░ 4.37%
 TypeScript      3 hrs 24 mins ▒░░░░░░░░░ 3.29%
 Thrift          1 hr 29 mins  ▒░░░░░░░░░ 1.43%
 Protocol Buffer 59 mins       ▒░░░░░░░░░ 0.95%

@@ -6,15 +6,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go         113 hrs 10 mins ████████▓░ 86.47%
-JSON       5 hrs 13 mins   ▒░░░░░░░░░ 4.00%
-TypeScript 3 hrs 58 mins   ▒░░░░░░░░░ 3.03%
-HTML       1 hr 57 mins    ▒░░░░░░░░░ 1.50%
-Thrift     1 hr 4 mins     ▒░░░░░░░░░ 0.83%
-Text       55 mins         ▒░░░░░░░░░ 0.71%
-YAML       46 mins         ▒░░░░░░░░░ 0.60%
-Smarty     39 mins         ▒░░░░░░░░░ 0.50%
-Markdown   36 mins         ▒░░░░░░░░░ 0.46%
-go.mod     24 mins         ▒░░░░░░░░░ 0.31%
+Go         108 hrs 39 mins ████████▓░ 86.32%
+JSON       5 hrs           ▒░░░░░░░░░ 3.99%
+TypeScript 3 hrs 57 mins   ▒░░░░░░░░░ 3.15%
+HTML       1 hr 57 mins    ▒░░░░░░░░░ 1.56%
+Thrift     1 hr 4 mins     ▒░░░░░░░░░ 0.86%
+Text       55 mins         ▒░░░░░░░░░ 0.73%
+YAML       46 mins         ▒░░░░░░░░░ 0.62%
+Smarty     39 mins         ▒░░░░░░░░░ 0.52%
+Markdown   35 mins         ▒░░░░░░░░░ 0.47%
+JavaScript 23 mins         ▒░░░░░░░░░ 0.31%
 ```
 <!--END_SECTION:waka-->

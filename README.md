@@ -6,15 +6,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              67 hrs 5 mins ████████▒░ 81.05%
-JSON            4 hrs 23 mins ▓░░░░░░░░░ 5.31%
-Protocol Buffer 3 hrs 18 mins ▒░░░░░░░░░ 4.00%
-Thrift          2 hrs 47 mins ▒░░░░░░░░░ 3.37%
-protobuf        1 hr 3 mins   ▒░░░░░░░░░ 1.29%
-Text            58 mins       ▒░░░░░░░░░ 1.18%
-Smarty          39 mins       ▒░░░░░░░░░ 0.79%
-textmate        27 mins       ▒░░░░░░░░░ 0.56%
-Shell Script    21 mins       ▒░░░░░░░░░ 0.43%
-Python          20 mins       ▒░░░░░░░░░ 0.42%
+Go              64 hrs 26 mins ████████▒░ 81.35%
+JSON            3 hrs 32 mins  ▒░░░░░░░░░ 4.48%
+Protocol Buffer 3 hrs 18 mins  ▒░░░░░░░░░ 4.18%
+Thrift          2 hrs 54 mins  ▒░░░░░░░░░ 3.68%
+protobuf        1 hr 3 mins    ▒░░░░░░░░░ 1.35%
+Text            48 mins        ▒░░░░░░░░░ 1.02%
+Smarty          37 mins        ▒░░░░░░░░░ 0.80%
+textmate        27 mins        ▒░░░░░░░░░ 0.59%
+Shell Script    21 mins        ▒░░░░░░░░░ 0.45%
+Python          20 mins        ▒░░░░░░░░░ 0.44%
 ```
 <!--END_SECTION:waka-->

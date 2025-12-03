@@ -6,12 +6,12 @@
 
 <!--START_SECTION:waka-->
 ```text
-Go              113 hrs 20 mins ████████▓░ 87.59%
-JSON            13 hrs 5 mins   █▒░░░░░░░░ 10.12%
-Protocol Buffer 51 mins         ▒░░░░░░░░░ 0.67%
-Thrift          43 mins         ▒░░░░░░░░░ 0.56%
-go.mod          43 mins         ▒░░░░░░░░░ 0.56%
-protobuf        22 mins         ▒░░░░░░░░░ 0.28%
+Go              112 hrs 17 mins ████████▓░ 89.42%
+JSON            9 hrs 59 mins   ▓░░░░░░░░░ 7.95%
+go.mod          57 mins         ▒░░░░░░░░░ 0.77%
+Protocol Buffer 53 mins         ▒░░░░░░░░░ 0.70%
+Thrift          49 mins         ▒░░░░░░░░░ 0.66%
+protobuf        21 mins         ▒░░░░░░░░░ 0.29%
 CSV/TSV         5 mins          ▒░░░░░░░░░ 0.07%
 YAML            3 mins          ▒░░░░░░░░░ 0.04%
 CSV             3 mins          ▒░░░░░░░░░ 0.04%

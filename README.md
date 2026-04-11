@@ -4,15 +4,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-Other      47 hrs 6 mins  ████▒░░░░░ 40.93%
-TypeScript 29 hrs 11 mins ██▓░░░░░░░ 25.36%
-Go         21 hrs 10 mins █▓░░░░░░░░ 18.39%
-Markdown   9 hrs 52 mins  ▓░░░░░░░░░ 8.58%
-JSON       4 hrs 9 mins   ▒░░░░░░░░░ 3.61%
-CSS        1 hr 17 mins   ▒░░░░░░░░░ 1.12%
-SQL        32 mins        ▒░░░░░░░░░ 0.48%
-Git Config 17 mins        ▒░░░░░░░░░ 0.25%
+Other      49 hrs 35 mins ████▒░░░░░ 43.26%
+TypeScript 30 hrs 14 mins ██▓░░░░░░░ 26.38%
+Go         16 hrs 48 mins █▒░░░░░░░░ 14.66%
+Markdown   9 hrs 37 mins  ▓░░░░░░░░░ 8.39%
+JSON       4 hrs 43 mins  ▒░░░░░░░░░ 4.12%
+CSS        1 hr 18 mins   ▒░░░░░░░░░ 1.15%
+SQL        33 mins        ▒░░░░░░░░░ 0.49%
 JavaScript 14 mins        ▒░░░░░░░░░ 0.21%
-TSConfig   12 mins        ▒░░░░░░░░░ 0.17%
+Git Config 14 mins        ▒░░░░░░░░░ 0.21%
+TSConfig   12 mins        ▒░░░░░░░░░ 0.18%
 ```
 <!--END_SECTION:waka-->

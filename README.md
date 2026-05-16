@@ -4,15 +4,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-TypeScript 32 hrs 3 mins  █████▒░░░░ 54.80%
-Markdown   11 hrs 56 mins ██▒░░░░░░░ 20.41%
-Go         7 hrs 16 mins  █▒░░░░░░░░ 12.44%
-Other      2 hrs 17 mins  ▒░░░░░░░░░ 3.92%
-JSON       1 hr 35 mins   ▒░░░░░░░░░ 2.71%
-CSS        46 mins        ▒░░░░░░░░░ 1.31%
-YAML       41 mins        ▒░░░░░░░░░ 1.17%
-Makefile   31 mins        ▒░░░░░░░░░ 0.89%
-Git Config 28 mins        ▒░░░░░░░░░ 0.81%
-Text       18 mins        ▒░░░░░░░░░ 0.51%
+TypeScript 29 hrs 17 mins █████▓░░░░ 58.10%
+Markdown   11 hrs 18 mins ██▒░░░░░░░ 22.44%
+Go         5 hrs 35 mins  █▒░░░░░░░░ 11.08%
+JSON       1 hr 34 mins   ▒░░░░░░░░░ 3.12%
+CSS        45 mins        ▒░░░░░░░░░ 1.51%
+YAML       41 mins        ▒░░░░░░░░░ 1.36%
+Git Config 28 mins        ▒░░░░░░░░░ 0.94%
+Lua        10 mins        ▒░░░░░░░░░ 0.34%
+Makefile   10 mins        ▒░░░░░░░░░ 0.33%
+Other      7 mins         ▒░░░░░░░░░ 0.25%
 ```
 <!--END_SECTION:waka-->

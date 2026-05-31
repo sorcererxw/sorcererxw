@@ -4,15 +4,15 @@
 
 <!--START_SECTION:waka-->
 ```text
-Markdown   69 hrs 54 mins ████▒░░░░░ 43.56%
-TypeScript 65 hrs 31 mins ████▒░░░░░ 40.83%
-JSON       6 hrs 29 mins  ▒░░░░░░░░░ 4.05%
-JavaScript 5 hrs 47 mins  ▒░░░░░░░░░ 3.61%
-Go         3 hrs 11 mins  ▒░░░░░░░░░ 1.99%
-CSS        2 hrs 22 mins  ▒░░░░░░░░░ 1.48%
-Git Config 2 hrs 4 mins   ▒░░░░░░░░░ 1.29%
-YAML       1 hr 55 mins   ▒░░░░░░░░░ 1.20%
-HTML       1 hr 6 mins    ▒░░░░░░░░░ 0.70%
-Astro      21 mins        ▒░░░░░░░░░ 0.22%
+Markdown   68 hrs 39 mins ████▒░░░░░ 44.43%
+TypeScript 61 hrs 38 mins ███▓░░░░░░ 39.89%
+JSON       6 hrs 26 mins  ▒░░░░░░░░░ 4.17%
+JavaScript 5 hrs 47 mins  ▒░░░░░░░░░ 3.75%
+Go         2 hrs 35 mins  ▒░░░░░░░░░ 1.68%
+CSS        2 hrs 15 mins  ▒░░░░░░░░░ 1.46%
+Git Config 2 hrs 4 mins   ▒░░░░░░░░░ 1.34%
+YAML       1 hr 55 mins   ▒░░░░░░░░░ 1.25%
+HTML       1 hr 6 mins    ▒░░░░░░░░░ 0.72%
+Astro      21 mins        ▒░░░░░░░░░ 0.23%
 ```
 <!--END_SECTION:waka-->
